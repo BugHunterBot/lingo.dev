@@ -1,4 +1,4 @@
-FROM node:20.12.2-alpine
+FROM node:20.20.0-alpine
 
 # Run the Node.js / TypeScript application
 ENTRYPOINT ["sh", "-c", "npx lingo.dev@latest ci \
